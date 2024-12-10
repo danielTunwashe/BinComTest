@@ -49,12 +49,12 @@ void TaskTwoIsEvenOrOdd()
     {
         if (userNumber % 2 == 0)
         {
-            Console.WriteLine($"{userNumber} is an even number");
+            Console.WriteLine($"Even");
             Console.WriteLine("---------- End of task two -----------\n");
         }
         else
         {
-            Console.WriteLine($"{userNumber} is an odd number");
+            Console.WriteLine($"Odd");
             Console.WriteLine("---------- End of task two -----------\n");
         }
     }
